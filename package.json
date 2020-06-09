@@ -1,0 +1,22 @@
+{
+    "name": "vsvalight-theme",
+    "displayName": "vsvalight-theme",
+    "description": "visual studio assist theme for VSCode",
+    "version": "0.0.1",
+    "publisher": "jxd",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "vsvaLight-Theme",
+                "uiTheme": "vs",
+                "path": "./themes/vsvaLight-Theme-color-theme.json"
+            }
+        ]
+    }
+}
